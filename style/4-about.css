@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-medvacity-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 1440px;
+    margin-top: 125px;
+}
+
+.about-medvacity-div .about-content{
+    width: 532px;
+    height: 356px;
+    background: url("/assets/small-banner/second-small-banner-bg.png");
+    padding: 30px;
+}
+
+.about-content p{
+    color: #111111;
+    font-size: 17px;
+    line-height: 31px;
+}
+
+
+
+/* media queries */
+@media only screen and (min-width : 375px) and (max-width : 768px){
+    .about-medvacity-div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        /* border: 2px solid black; */
+        height: 453px;
+        width: 543px;
+        margin-top: 125px;
+        flex-direction: column;
+    }
+}

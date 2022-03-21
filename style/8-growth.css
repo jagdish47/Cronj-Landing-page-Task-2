@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.growth-content-div{
+    width: 695px;
+    height: 545px;
+    /* border: 2px solid #111111; */
+    margin-left: 225px;
+    margin-top: 120px;
+    position: relative;
+    bottom: 233px;
+    right: 105px;
+}
+
+.growth-img-div{
+    width: 1450px;
+    height: 790px;
+    margin: auto;
+    background: url("/assets/medvasity.png");
+    margin-top: 400px;
+}
+
+.growth-content-div h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    margin-top: 20px;
+}
+
+.growth-content-div p{
+    font-size: 19px;
+    line-height: 36px;
+    opacity: 0.88;
+    margin-top: 20px;
+}
+
+.input-div{
+    position: absolute;
+    margin-top: 20px;
+}
+.growth-input{
+    font-size: 20px;
+    width: 640px;
+    padding: 22px;
+    border: none;
+    border: 1px solid lightgrey;
+    border-right: none;
+    border-radius: 5px;
+}
+button{
+    width: 150px;
+    font-size: 22px;
+    color: #ffffff;
+    background: #177DFB;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Tech stack section css 👇🏼 */
+.tech-stack-div{
+    width: 1440px;
+    height: 400px;
+    margin: auto;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+}
+
+.tech-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-content h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+

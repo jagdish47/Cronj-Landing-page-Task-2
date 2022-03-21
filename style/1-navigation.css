@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.landing-bg{
+    width: 1440px;
+    height: 713px;
+    margin: auto;
+    background: url("/assets/landing-background.png");
+}
+
+.landing-bg #nav-main-container{
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid white; */
+}
+
+#nav-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-main-container ul{
+    display: flex;
+}
+#nav-main-container ul li{
+    font-size: 17px;
+    font-weight: medium;
+    color: #ffffff;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+#nav-main-container ul li i{
+    margin: 0px 5px;
+}
+
+/* navigation section ends here */
+
+
+/* top content div start👇🏼 */
+
+.top-content-div{
+    width: 100%;
+    height: 285px;
+    /* border: 2px solid rgb(255, 3, 3); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.top-content-div h2{
+    /* border: 2px solid white; */
+    width: 466px;
+    height: 109px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.top-content-div p{
+    width: 1070px;
+    height: 57px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    /* border: 2px solid green; */
+}
+
+.top-content-div img{
+    width: 221px;
+    height: 39px;
+    margin-top: 20px;
+}
+
+/* multiple screen div starts👇🏼 */
+
+.multiple-screen-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    /* border: 2px solid rgb(105, 0, 0); */
+}
+
+.multiple-screen-div img{
+    width: 1227px;
+    height: 305px;
+}
+
+
+
+
+/* Header media query starts form here */
+
+@media only screen and (min-width : 375px) and (max-width : 768px){
+    #nav-main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    #nav-main-container .header-logo{
+        margin-left: 220px;
+        padding: 20px;
+    }
+
+    #nav-main-container .contact-us-btn{
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+
+
+    .top-content-div p{
+        display: none;
+    }
+    .top-content-div h2{
+        /* border: 2px solid white; */
+        width: 416px;
+        height: 109px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: left;
+        margin-right: 750px;
+        margin-top: 300px;
+    }
+
+    .multiple-screen-div{
+        display: none;
+    }
+
+    .top-content-div img{
+        width: 221px;
+        height: 39px;
+        margin-top: 20px;
+        margin-right: 850px;
+    }
+}

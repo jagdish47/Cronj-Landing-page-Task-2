@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-designs-div{
+    width: 1440px;
+    height: 1000px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+.project-designs-content{
+    height: 150px;
+    width: 795px;
+    /* border: 2px solid red; */
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.project-designs-content h2{
+    display: inline;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+.project-designs-content p{
+    font-size: 19px;
+    line-height: 35px;
+    opacity: 0.7;
+}
+
+.project-designs-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    height: 350px;
+    /* border: 2px solid black; */
+    margin:auto;
+    margin-top: 30px;
+}
+
+.project-designs-row-content{
+    width: 350px;
+    height: 250px;
+    /* border: 2px solid red; */
+}
+
+.project-designs-content h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.project-designs-content p{
+    font-size: 19px;
+    line-height: 31px;
+}
+
+
+/* Sixth-banner css */
+.sixth-banner-bg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1108px;
+    height: 250px;
+    /* border: 2px solid black; */
+    margin: auto;
+    background: url("/assets/third-and-fourth-banner/third-fourth-banner-bg.png");
+    margin-top: 30px;
+}
+
+.sixth-banner-content h2{
+    height: 85px;
+    width: 529px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 51px;
+}
+
+.sixth-banner-bg p{
+    width: 497px;
+    height: 57px;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+
+

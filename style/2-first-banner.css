@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-banner-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+    height: 360px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 150px;
+    background: url("/assets/first-banner/first-banner-bg.png");
+}
+
+.first-banner-bg h2{
+    width: 660px;
+    height: 43px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 51px;
+}
+
+.first-banner-bg p{
+    width: 1010px;
+    height: 58px;
+    font-size: 19px;
+    line-height: 31px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.first-banner-bg .company-logos{
+    margin-top: 25px;
+}
+
+
+/* banner media queries starts from here */
+
+@media only screen and (min-width : 375px) and (max-width : 768px){
+    .first-banner-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 560px;
+        height: 360px;
+        border: 2px solid black;
+        margin: auto;
+        margin-top: 150px;
+        background: url("/assets/first-banner/first-banner-bg.png");
+    }
+
+    .first-banner-bg h2 {
+        width: 480px;
+        height: 51px;
+        color: #ffffff;
+        font-weight: 595;
+        font-size: 20px;
+        line-height: 51px;
+    }
+
+
+    .first-banner-bg p {
+        width: 450px;
+        height: 65px;
+        font-size: 19px;
+        line-height: 31px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+}

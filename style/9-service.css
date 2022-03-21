@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.service-main-section{
+    width: 1440px;
+    height: 870px;
+    background: #F8F9FD;
+    margin: auto;
+}
+
+.service-main-section .service-content{
+    width: 1108px;
+    height: 180px;
+    margin: auto;
+    /* border: 2px solid black; */
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+
+.service-content h1{
+    display: inline;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    position: relative;
+    bottom: 9px;
+    left: 10px;
+}
+
+.service-content p{
+    font-size: 19px;
+    line-height: 35px;
+    opacity: 0.7px;
+    margin-top: 20px;
+}
+
+
+
+.service-first-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1250px;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+.service-first-row .design-div{
+    height: 250px;
+    width: 330px;
+    text-align: center;
+    /* border: 2px solid red; */
+   
+}
+
+.design-div h4{
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0D3A8F;
+    margin-top: 20px;
+}
+
+.design-div p{
+    font-size: 17px;
+    line-height: 29px;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.service-second-row{
+    margin-top: 30px;
+}
+
+
+/* fifth banner css */
+.fifth-banner-bg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1108px;
+    height: 325px;
+    /* border: 2px solid black; */
+    margin: auto;
+    background: url("/assets/fifth-banner/fifth-banner-bg.png") center center/cover;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+.second-banner-content h2{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 51px;
+}
+
+.second-banner-bg p{
+    width: 497px;
+    height: 57px;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 20px;
+}
